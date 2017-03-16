@@ -16,6 +16,10 @@
   overflow: hidden;
   margin-bottom:30px;
 }
+.marg-left{
+  margin-left: 75px;!important;
+}
+
 .productinfo h2{
   color: #6666ff;
   font-family: 'Roboto', sans-serif;
