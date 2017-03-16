@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href ="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="metisMenu/dist/metisMenu.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Review book</title>
+</head>
+<body>
+
+<!-- navigation -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" style="margin-left: 5px" href="#">Social book</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Book</a></li>
+                    <li><a href="#">Rank top</a></li>
+                </ul>
+                <ul class="navbar-nav nav col-md-4">
+                    <li>
+                        <form class="navbar-form navbar-left">
+                            <div class="input-group">
+                                <input type="search" class="form-control" name="searchmember" placeholder="Search member">
+                                </br>
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span><img width="25px" height="25px" src="avatar/avatar.jpg" ></span> Tô Minh Phong</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- end navigation -->
+<hr>
+<div class="container">
+        <div class="col-md-3 " style="background: #f8f8f8">
+            <!-----------------------------sidebar---------------------------->
+            <div class="navbar-default sidebar">
+                <div class="sidebar-nav">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="javascript:void(0)"><i class="fa fa-book fa-fw"></i>Categories<span
+                                    class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Hài hước truyện cười</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kinh dị</a>
+                                </li>
+                                <li>
+                                    <a href="#">Huyền bí giả tưởng</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><i class="fa fa-newspaper-o fa-fw"></i>Latest books</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><i class="fa fa-heart fa-fw"></i>Most popular books</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><i class="fa fa-phone fa-fw"></i>Request</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><i class="fa fa-university fa-fw">Contact</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-----------------------------end sidebar---------------------------->
+        </div>
+        <div class="col-md-9" style="background: #f8f8f8">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="title text-center">HÀI HƯỚC TRUYỆN CƯỜI</h2>
+                </div>
+                <div class="col-md-4 margin-top">
+                    <div class="input-group custom-search-form">
+                        <input type="text" class="form-control" name="search" placeholder="Search book">
+                        <span class="input-group-btn"><button class="btn btn-default-sm" type="submit"><i
+                                class="fa fa-search"></i></button></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product-image-wrapper polaroid" >
+                        <div class="productinfo text-center margin-top">
+                            <div class="saishou">
+                            <a href="">
+                                <img name="image" src="http://tala.tikicdn.com/cache/w232/media/catalog/product/g/a/gau_nha_tui_full.jpg" /></a>
+                            </div>
+                            <div class="saigo" style="display: none">
+                                <a href="" class="margin btn btn-custom btn-success green">Show</a>
+                                <a href="" class="btn btn-custom btn-success green">Review</a>
+                            </div>
+                            <h2>34.000 đ</h2>
+                            <h4>Gấu nhà tui</h4>
+                            <h5>Tác giả</h5>
+                            <h6>Nhà xuất bản</h6>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-image-wrapper polaroid">
+                        <div class="productinfo text-center margin-top">
+                            <div class="saishou">
+                                <a href="">
+                                    <img name="image" src="http://tala.tikicdn.com/cache/w232/media/catalog/product/b/i/bia_vung_troi_hu_cau_final2-03.jpg"/></a>
+                            </div>
+                            <div class="saigo" style="display: none">
+                                <a href="" class="margin btn btn-custom btn-success green">Show</a>
+                                <a href="" class="btn btn-custom btn-success green">Review</a>
+                            </div>
+                            <h2>34.000 đ</h2>
+                            <h4>Vùng trời hư cấu</h4>
+                            <h5>Tác giả</h5>
+                            <h6>Nhà xuất bản</h6>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-image-wrapper polaroid">
+                    <div class="single-products margin-top">
+                        <div class="productinfo text-center">
+                            <a href="">
+                                <img src="http://tala.tikicdn.com/cache/w232/media/catalog/product/c/u/cuoi-tuech-toac.jpg" /></a>
+                            <h2>180.000 đ</h2>
+                            <h4>Quanh năm cười</h4>
+                            <h5>Tác giả</h5>
+                            <h6>Nhà xuất bản</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-image-wrapper polaroid">
+                    <div class="single-products margin-top">
+                        <div class="productinfo text-center">
+                            <a href="">
+                                <img src="http://tala.tikicdn.com/cache/w232/media/catalog/product/t/r/truyen-tieu-lam-viet-nam_1.jpg" /></a>
+                            <h2>185.000 đ</h2>
+                            <h4>Truyện tiếu lâm</h4>
+                            <h5>Tác giả</h5>
+                            <h6>Nhà xuất bản</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<script src="jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="metisMenu/dist/metisMenu.min.js"></script>
+<script type="text/javascript" src="js/admin.js"></script>
+<script src="js/sweetalert-dev.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>

@@ -1,0 +1,79 @@
+﻿h2.title {
+  color: #6666ff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 15px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.product-image-wrapper{
+  /*border:1px solid #6666ff;*/
+  overflow: hidden;
+  margin-bottom:30px;
+}
+.productinfo h2{
+  color: #6666ff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.product-overlay h2{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.productinfo p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-width: 800px;
+  color: #696763;
+}
+
+/* tỉ lệ % độ lớn của ảnh*/
+.productinfo img{
+  height: 230px;
+  width: auto;
+}
+
+.productinfo{
+  position:relative;
+}
+
+.navbar-custom{
+  background: #eee;
+}
+
+div.polaroid {
+  position:relative;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.saigo{
+  height: 230px;
+  width: 180px;
+  margin: auto;
+  background-size: 180px 230px;
+}
+
+div.margin-top{
+  margin-top: 10px;
+}
+
+.margin-top20{
+  margin-top: 20px;
+}
+
+.btn-custom{
+  width: 100px;
+}
+
+.margin{
+  margin: 60px 0px 10px 0px;
+}
